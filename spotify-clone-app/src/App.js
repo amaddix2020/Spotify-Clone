@@ -35,16 +35,15 @@ function App() {
         });
     }
 
-   console.log('I HAVE A TOKEN>>>', token )
+   
   }, []);
 
-  console.log("Person, user");
-  console.log("Alien, token");
+  
+  
 
   return (
-    <div className="app">{token ? 
-          <Player />
-          :<Login />}</div>
+    <div className="app">{token ? <Player  spotify={spotify}/> : <Login />}</div>
+    
   );
 }
 
