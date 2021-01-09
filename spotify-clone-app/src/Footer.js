@@ -13,8 +13,14 @@ function Footer() {
     return (
         <div className="footer">
           <div className="footer__left">
-              <p>Album and song details</p>
-              </div>  
+          <img
+          className="footer__albumLogo"
+          src="https://lastfm.freetls.fastly.net/i/u/ar0/cbdfa652fe8db46cbbc3effe20afb32f.jpg" alt="" />
+        <div className="footer__songInfo">
+            <h4>Majesty</h4>
+            <p>Grace Thrillers</p>
+            </div>
+        </div>  
 
               <div className="footer__center">
                 <ShuffleIcon className="footer__green" />
