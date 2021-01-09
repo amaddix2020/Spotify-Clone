@@ -41,10 +41,10 @@ function App() {
   
   
 
-  return (
+  return 
     <div className="app">{token ? <Player  spotify={spotify}/> : <Login />}</div>
-    
-  );
+
+  
 }
 
 export default App;
