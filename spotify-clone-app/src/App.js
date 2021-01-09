@@ -32,9 +32,11 @@ function App() {
           user: user,
         });
         });
-    }
 
-   
+     spotify.getUserPlaylists().then((playlists) => {
+       
+     })
+    }   
   }, []);
 
   
