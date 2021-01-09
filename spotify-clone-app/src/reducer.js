@@ -23,8 +23,14 @@ export const initialState = {
         ...state,
         token: action.token, 
 
-      }
-    default:
+      };
+
+      case 'SET_PLAYLISTS':
+        return {
+          ...state,
+          playlists: action.playlists
+        };
+      default:
       return state;
   }
 };
