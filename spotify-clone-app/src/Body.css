@@ -16,7 +16,7 @@
   flex: 1;
 }
 
-.body_info > img {
+.body__info > img {
   height: 20vw;
   margin: 0 20px;
   box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
@@ -35,6 +35,10 @@
   margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.body__songs {
+  margin: 20px -30px;
 }
 
 .body__shuffle:hover {
